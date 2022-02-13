@@ -1,0 +1,9 @@
+security:
+  oauth2:
+    resource:
+      userInfoUri: https://leazeit.auth.ap-south-1.amazoncognito.com/oauth2/userInfo
+      tokenInfoUri: https://leazeit.auth.ap-south-1.amazoncognito.com/oauth2/token
+      jwk:
+        key-set-uri: https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_e8YePcfYW/.well-known/jwks.json
+    client:
+      clientId: 4a2kb38jruo3jspdckc9nlojfm
